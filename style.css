@@ -266,7 +266,7 @@ section {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: var(--bg-dark) url('../assets/home-bg-final.jpg') center/cover no-repeat;
+  background: var(--bg-dark) url('home-bg-final.jpg') center/cover no-repeat;
   background-color: var(--bg-dark);
 }
 
@@ -1093,4 +1093,5 @@ section {
 
 .mb-2 {
   margin-bottom: 2rem;
+
 }
