@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Free Trial | TYGO FITNESS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="logo">TYGO <span>FITNESS</span></a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="why-tygo.html">Why TYGO</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="book-trial.html">Book Free Trial</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="book-trial.html" class="btn btn-primary">Book Free Trial</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container">
+      <p class="section-tag">Free Trial</p>
+      <h1>Book Your Trial</h1>
+      <p style="color: var(--text-muted); max-width: 560px; margin: 0 auto;">Fill the form and we’ll open WhatsApp with
+        your details. Our team will confirm your slot.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <form id="trial-form" class="form-max">
+        <div class="form-group">
+          <label for="trial-name">Name *</label>
+          <input type="text" id="trial-name" name="name" required placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="trial-phone">Phone *</label>
+          <input type="tel" id="trial-phone" name="phone" required placeholder="10-digit mobile">
+        </div>
+        <div class="form-group">
+          <label for="trial-email">Email</label>
+          <input type="email" id="trial-email" name="email" placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label for="trial-time">Preferred Time</label>
+          <select id="trial-time" name="time">
+            <option value="">Select</option>
+            <option value="Morning (6–9 AM)">Morning (6–9 AM)</option>
+            <option value="Late Morning (9–12 PM)">Late Morning (9–12 PM)</option>
+            <option value="Afternoon (12–4 PM)">Afternoon (12–4 PM)</option>
+            <option value="Evening (4–8 PM)">Evening (4–8 PM)</option>
+            <option value="Night (8–10 PM)">Night (8–10 PM)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="trial-goal">Goal</label>
+          <select id="trial-goal" name="goal">
+            <option value="">Select</option>
+            <option value="Weight loss">Weight loss</option>
+            <option value="Muscle gain">Muscle gain</option>
+            <option value="General fitness">General fitness</option>
+            <option value="Boxing / TRX">Boxing / TRX</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.9rem;">Send via WhatsApp</button>
+      </form>
+      <p id="trial-confirm" style="display: none; text-align: center; margin-top: 1.5rem; color: var(--neon);">WhatsApp
+        will open with your details. Send the message to confirm your free trial. We’ll get back to you shortly.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">TYGO <span>FITNESS</span></div>
+          <p>Premium gym. Your fitness, our mission.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="why-tygo.html">Why TYGO</a></li>
+            <li><a href="trainers.html">Trainers</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="book-trial.html">Book Free Trial</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+918553535553">+91 85535 35553</a></li>
+            <li><a href="tel:+919845680792">+91 98456 80792</a></li>
+            <li><a href="mailto:hello@tygofitness.com">hello@tygofitness.com</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow</h4>
+          <ul>
+            <li><a href="https://instagram.com/tygofitness" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="#" onclick="openWhatsApp(); return false;">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 TYGO FITNESS. All rights reserved.</p>
+        <p><a href="#">Terms</a> · <a href="#">Privacy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="whatsapp-float" onclick="openWhatsApp(); return false;" aria-label="Chat on WhatsApp">💬</a>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

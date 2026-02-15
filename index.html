@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TYGO FITNESS – Premium Gym | Your Fitness, Our Mission</title>
+  <meta name="description"
+    content="Premium gym with 6000 sq ft space, boxing, TRX, steam. Certified trainers. Join now or book a free trial.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="logo logo-full-neon">TYGO FITNESS</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="why-tygo.html">Why TYGO</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="membership.html" class="btn btn-primary nav-cta">Join Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content container">
+      <h1>YOUR FITNESS.<br><span class="accent">OUR MISSION.</span></h1>
+      <p class="hero-sub">6000 sq ft premium fitness facility with world-class trainers, cutting-edge equipment, and a
+        community that transforms lives.</p>
+      <div class="hero-btns">
+        <a href="book-trial.html" class="btn btn-primary">Book Free Trial</a>
+        <a href="#" class="btn btn-outline"
+          onclick="openWhatsApp('Hi, I want to join TYGO FITNESS.'); return false;">Join Now via WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="why-tygo" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="heading-accent">Why Choose <span class="neon">TYGO</span>?</h2>
+      </div>
+      <div class="features-grid features-grid-2x2">
+        <div class="feature-card">
+          <div class="icon icon-svg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+            </svg>
+          </div>
+          <h3>Expert Trainers</h3>
+          <p>Certified professionals with years of experience in body transformation.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon icon-svg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20 7 22M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20 17 22M18 2H6v7a6 6 0 0 0 12 0V2z" />
+            </svg>
+          </div>
+          <h3>Proven Results</h3>
+          <p>100+ successful transformations documented and verified.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon icon-svg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3>Community</h3>
+          <p>Join a community of dedicated fitness enthusiasts and achievers.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon icon-svg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+          </div>
+          <h3>Premium Facility</h3>
+          <p>State-of-the-art equipment and a premium training environment.</p>
+        </div>
+      </div>
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-icon icon-svg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <p class="stat-label">Active Members</p>
+          <p class="stat-value">100+</p>
+        </div>
+
+      </div>
+      <p class="text-center mt-1"><a href="why-tygo.html" class="btn btn-outline">Learn More About TYGO</a></p>
+    </div>
+  </section>
+
+  <section class="section section-trainers" style="background: var(--bg-card);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="heading-accent">Our Elite <span class="neon">Trainers</span></h2>
+      </div>
+      <div class="trainers-grid trainers-grid-initials">
+        <div class="trainer-card trainer-card-initials">
+          <div class="trainer-initials">AK</div>
+          <div class="body">
+            <h3>Alex Kumar</h3>
+            <p class="meta">Strength & Conditioning</p>
+          </div>
+        </div>
+        <div class="trainer-card trainer-card-initials">
+          <div class="trainer-initials">SW</div>
+          <div class="body">
+            <h3>Sarah Williams</h3>
+            <p class="meta">HIIT & Cardio</p>
+          </div>
+        </div>
+        <div class="trainer-card trainer-card-initials">
+          <div class="trainer-initials">MJ</div>
+          <div class="body">
+            <h3>Marcus Johnson</h3>
+            <p class="meta">Nutrition & Lifestyle</p>
+          </div>
+        </div>
+      </div>
+      <p class="text-center mt-1"><a href="trainers.html" class="btn btn-outline">View All Trainers</a></p>
+    </div>
+  </section>
+
+  <section class="section section-plans">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="heading-accent">Choose Your <span class="neon">Plan</span></h2>
+      </div>
+      <div class="plans-grid plans-grid-home">
+        <div class="plan-card">
+          <h3>3 Months</h3>
+          <p class="price">₹3,999</p>
+          <p class="price-note">one-time</p>
+          <ul>
+            <li>Unlimited gym access</li>
+            <li>Group classes included</li>
+            <li>Facility access</li>
+            <li>Locker access</li>
+            <li>Community support</li>
+          </ul>
+          <button type="button" class="btn btn-primary" onclick="joinPlan('3-Month Membership (₹3,999)')">Join Now via
+            WhatsApp</button>
+        </div>
+        <div class="plan-card">
+          <h3>6 Months</h3>
+          <p class="price">₹6,999</p>
+          <p class="price-note">one-time</p>
+          <ul>
+            <li>Unlimited gym access</li>
+            <li>All group classes</li>
+            <li>Premium facility access</li>
+            <li>1 personal training session</li>
+            <li>Basic nutrition guidance</li>
+            <li>Priority support</li>
+          </ul>
+          <button type="button" class="btn btn-primary" onclick="joinPlan('6-Month Membership (₹6,999)')">Join Now via
+            WhatsApp</button>
+        </div>
+        <div class="plan-card featured">
+          <span class="label">Launch Offer</span>
+          <p class="label-note">Limited to 200 Members</p>
+          <h3>1 Year</h3>
+          <p class="price">₹9,999</p>
+          <p class="price-note">LAUNCH OFFER</p>
+          <ul>
+            <li>Unlimited gym access</li>
+            <li>All group classes included</li>
+            <li>Boxing, TRX, Cardio areas</li>
+            <li>Steam room access</li>
+            <li>4 personal training sessions</li>
+            <li>Nutrition consultation</li>
+            <li>Progress tracking app</li>
+            <li>VIP community access</li>
+          </ul>
+          <button type="button" class="btn btn-primary"
+            onclick="joinPlan('1-Year Membership (₹9,999 Launch Offer)')">Join Now via WhatsApp</button>
+        </div>
+      </div>
+      <p class="text-center mt-1"><a href="membership.html" class="btn btn-outline">View All Plans</a></p>
+    </div>
+  </section>
+
+  <section class="section reviews-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="heading-accent">What Our Members <span class="neon">Say</span></h2>
+        <p style="color: var(--text-muted);">Real experiences from our community.</p>
+      </div>
+      <div class="reviews-grid">
+        <!-- Review 1 -->
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"I've had a great experience at Tygo's Fitness. The trainers are knowledgeable,
+            supportive, and genuinely care about helping you improve, whether your goal is fitness, strength, or overall
+            health. The gym is clean, well maintained..."</p>
+          <div class="reviewer">
+            <div class="reviewer-name">Akash N</div>
+            <div class="reviewer-meta">3 weeks ago</div>
+          </div>
+        </div>
+        <!-- Review 2 -->
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"Great gym with a motivating atmosphere and well-maintained equipment. There's a wide
+            variety of machines and free weights, so it's easy to get a full workout in no matter your fitness level.
+            The staff is friendly and helpful."</p>
+          <div class="reviewer">
+            <div class="reviewer-name">Megha Gupta</div>
+            <div class="reviewer-meta">a month ago</div>
+          </div>
+        </div>
+        <!-- Review 3 -->
+        <div class="review-card">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">"One of the best gyms in the area. Very clean and hygienic with new, well-maintained
+            equipment. They also have regular group sessions and a great overall vibe. Definitely a good place to work
+            out. Highly recommended."</p>
+          <div class="reviewer">
+            <div class="reviewer-name">Sonu</div>
+            <div class="reviewer-meta">3 weeks ago</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="text-center">
+        <a href="https://maps.app.goo.gl/ZzNQ2ZwqezxbhJ928" target="_blank" rel="noopener" class="btn btn-outline">Read
+          More Reviews on Google</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="location" class="section visit-section" style="background: var(--bg-card);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="heading-accent">Visit Us at <span class="neon">TYGO</span></h2>
+      </div>
+      <div class="visit-grid">
+        <div class="visit-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3886.717912849744!2d77.4595235!3d13.0536191!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae25003c2767c1%3A0xb90cffd4ad26c991!2sTygo%20Fitness!5e0!3m2!1sen!2sin!4v1771143587231!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="TYGO FITNESS Location"></iframe>
+        </div>
+        <div class="visit-details">
+          <h3 class="visit-heading">Our Location</h3>
+          <p class="visit-desc">Visit our state-of-the-art fitness facility in Bengaluru. We're conveniently located at
+            Anjanadri Complex with easy parking and modern amenities.</p>
+          <a href="https://maps.app.goo.gl/ZzNQ2ZwqezxbhJ928" target="_blank" rel="noopener" class="btn btn-primary">Get
+            Directions</a>
+          <div class="visit-address">
+            <p>Anjanadri Complex, Lakshmipura Rd, Madanayakahalli, Bengaluru, Siddanahosahalli, Karnataka 562162</p>
+          </div>
+          <div class="visit-contact-row">
+            <div class="visit-contact-block">
+              <strong>Phone</strong>
+              <p><a href="tel:+918553535553">+91 85535 35553</a></p>
+              <p><a href="tel:+919845680792">+91 98456 80792</a></p>
+            </div>
+            <div class="visit-contact-block">
+              <strong>Email</strong>
+              <p><a href="mailto:hello@tygofitness.com">hello@tygofitness.com</a></p>
+            </div>
+          </div>
+          <div class="visit-hours">
+            <strong>Operating Hours</strong>
+            <p>Mon – Sat: 5:30 AM – 10:00 PM<br>Sun: 6:00 AM – 10:00 AM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo logo-full-neon">TYGO FITNESS</div>
+          <p>Transform your body, transform your life.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="why-tygo.html">Why TYGO</a></li>
+            <li><a href="trainers.html">Trainers</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact & Support</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="tel:+918553535553">📞 +91 85535 35553</a></li>
+            <li><a href="tel:+919845680792">📞 +91 98456 80792</a></li>
+            <li><a href="#" onclick="openWhatsApp(); return false;">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 TYGO Fitness. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="whatsapp-float" onclick="openWhatsApp(); return false;" aria-label="Chat on WhatsApp">💬</a>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
